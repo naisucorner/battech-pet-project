@@ -1,0 +1,23 @@
+body{
+	font-family: 'Roboto';
+	color: white;
+	margin: 0;
+}
+nav{
+	margin: auto;
+	color:  white;
+	background: #222222;
+}
+
+#logo{
+	border: 2px solid #FFFFFF;
+}
+
+li{
+	list-style: none;
+	display: inline-flex;
+}
+
+ul {
+	display: inline-block;
+}

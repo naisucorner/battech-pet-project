@@ -1,0 +1,146 @@
+body{
+	font-family: 'Roboto';
+	margin: auto 0;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+nav{
+	display: flex;
+	color:  white;
+	background: #222222;
+	padding: 10px;
+	font-size: 12px;
+	height: 50px;
+	position: relative;
+}
+
+#logo{
+	border: 2px solid #FFFFFF;
+	padding: 15px 55px;
+	position: absolute;
+	left: 10px;
+}
+
+li{
+	list-style: none;
+	padding: 20px 40px;
+}
+
+#log{
+	position: absolute;
+	right: 15px;
+	display: flex;
+	align-items: center;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#nav_spider{
+	margin: -30px;
+	z-index: 10;
+	vertical-align: middle;
+}
+
+ul {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+.box_red{
+	background: #EE171F;
+	border-radius: 11.5px;
+	padding: 5px 35px;
+}
+
+.box_white
+{
+	background: #FFFFFF;
+	border-radius: 11.5px;
+	padding: 5px 35px;
+}
+
+.background_cover{
+	height: 270px;
+	object-fit: cover;
+	background-image: url(background_teruel.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.user_box{
+	max-width: 500px;
+	background-color: white;
+	position: absolute;
+	top: 200px;
+	z-index: 10;
+	left: 10%;
+	border-radius: 20px;
+	display: flex;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.user_avatar{
+	width: 40%;
+	border-radius: 100px;
+	height: 80%;
+	margin:  20px;
+}
+
+.user_detail{
+	color: black;
+	flex: 1;
+	justify-items: center;
+	margin: auto;
+}
+
+.user_name{
+	font-size: 200%;
+	font-weight: bold;
+}
+
+.user_id{
+	opacity: 30%;
+	font-weight: bold;
+}
+
+.edit_profile{
+	background: red;
+	color:  white;
+	padding: 5px 10px;
+	border-radius: 10px;
+	border-color: red;
+	margin-top: 30px;
+}
+
+.order_address
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 150px;
+}
+
+.user_order{
+	flex: 1;
+	margin: 0 10%;
+
+}
+
+.user_address{
+	flex: 1;
+}
+
+.order{
+	width: fit-content;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.order_table{
+	
+}
