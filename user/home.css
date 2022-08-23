@@ -85,6 +85,7 @@ ul {
 	top: 200px;
 	z-index: 10;
 	left: 10%;
+	display: flex;
 }
 
 .user_avatar{
@@ -115,7 +116,7 @@ ul {
 	background: red;
 	color:  white;
 	padding: 5px 10px;
-	border-radius: 10px;
+	border-radius: 30px;
 	border-color: red;
 	margin-top: 30px;
 }
@@ -135,6 +136,7 @@ ul {
 
 .user_address{
 	flex: 1;
+	margin-left: 5%;
 }
 
 
@@ -176,6 +178,37 @@ td{
 }
 
 .see_all{
-	margin-top: 0px;
-	right: 0;
+	margin-top: 5px;
+	position: absolute;
+	right: 90px;
+	padding: 5px 40px;
+}
+
+.address_box{
+	max-width: 200px;
+	padding: 20px;
+	border-radius: 30px;
+	margin-top: 20px;
+}
+
+.address_name{
+	flex: 4;
+	font-weight: bold;
+}
+
+.info_icon{
+	flex: 1;
+	max-height: 12px;
+	margin-top: 5px;
+}
+
+.address{
+	max-width: 170px;
+	padding: 30px 0;
+}
+
+.address_res{
+	display:flex; 
+	flex-wrap: wrap; 
+	column-gap: 30px;
 }
