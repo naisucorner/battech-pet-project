@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+main 
+{
+    padding: 40px 40px;
+}
+
+html { 
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+html { 
+    font-size: 62.5%;
+    line-height: 1.6 rem;
+    font-family: 'Roboto', sans-serif;
+
+}

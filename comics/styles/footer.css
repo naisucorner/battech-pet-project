@@ -1,0 +1,62 @@
+footer
+{
+    width: 100%;
+    height: 250px;
+    background-color: lightblue;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-left-section
+{
+    background-color: lightblue;
+    width: 40%;
+    position: relative;
+    
+}
+
+.footer-right-section
+{
+    background-color: lightgray;
+    flex: 1;
+}
+
+.logo
+{
+    position: absolute;
+    top: 80px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    padding: 12px 80px;
+    background-color: #C4C4C4;
+    color: #000000;
+    margin-left: 120px;
+}
+
+.author
+{
+    position: relative;
+    top: 130px;
+    color: black;
+    margin-left: 120px;
+}
+
+.flex-logo
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+}
+
+.itf
+{
+    position: relative;
+    width: 30px;
+    margin-right: 20px;
+    top: 150px;
+}
