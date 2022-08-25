@@ -1,0 +1,220 @@
+.comic-about
+{
+    margin-top: 80px;
+}
+
+.comic-title
+{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    font-style: normal;
+
+    color: #000000;
+}
+
+.comic-info-contaiter
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 46px;
+}
+
+@media (max-width: 800px) {
+    .comic-info-contaiter {
+      flex-direction: column;
+    }
+    .shopping-container
+    {
+        margin-top: 20px;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .comic-details-container
+    {
+        margin-top: 20px;
+    }
+
+    .comic-poster
+    {
+        width: 100%;
+    }
+}
+
+.comic-poster
+{
+    width: 232px;
+    height: auto;
+    border-radius: 35px;
+}
+
+.comic-info-contaiter>.comic-poster
+{
+    margin-right: 10px;
+}
+
+.comic-details-container
+{
+    width: 380px;
+    margin-right: 40px;
+}
+
+.comic-rating-container
+{
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+}
+
+/* .comic-rating-image
+{} */
+
+.comic-rating-image-star
+{
+    display: inline;
+}
+
+.rating-score
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.see-all-reviews-link
+{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0093B4;
+    text-decoration: underline;
+    margin-top: 9px;
+}
+
+.comic-info
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 26px;
+}
+
+.comic-info-section
+{
+    display: flex;
+}
+
+.comic-info-type
+{
+    width: 52px;
+    margin-right: 24px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.comic-info-detail
+{
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.description-container
+{
+    width: 400px;
+    margin-top: 20px;
+}
+
+.description-title
+{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+}
+
+.description-detail
+{
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.shopping-container
+{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 221px;
+    height: fit-content;
+    padding: 12px 13px;
+}
+
+.comic-price
+{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #EE171F;
+}
+
+.status-container
+{
+    display: flex;
+    margin-top: 18px;
+    align-items: center;
+    text-align: center;    
+    box-sizing: border-box;
+}
+
+.green-dot
+{
+    position: relative;
+    vertical-align: middle;
+    width: 7px;
+    height: 7px;
+    background-color: green;
+    border: none;
+    border-radius: 4px;
+    margin-right: 4px;
+}
+
+.status
+{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.add-to-cart-button
+{
+    margin-top: 42px;
+    width: 100%;
+    background: #EE171F;
+    border-radius: 11.5px;
+    border: none;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    padding: 6px 0px;
+}
+
+.buy-now-button
+{
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    background: #fff;
+    border-radius: 11.5px;
+    border: none;
+    align-items: center;
+    color: #333;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    padding: 6px 0px;
+}

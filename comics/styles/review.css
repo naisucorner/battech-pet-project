@@ -1,0 +1,176 @@
+@media (max-width: 800px) {
+    .my-rating {
+        position: relative;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .other-rating
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-my-comment-container
+    {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .comic-review-container
+    {
+        margin-right: 20px;
+        width: 100%;
+    }
+
+    .comic-details-container
+    {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1000px)
+{
+    .my-rating
+    {
+        position: relative;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+
+    .input-my-comment-container
+    {
+        margin-top: 10px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}
+
+@media (min-width: 1001px)
+{
+    .my-rating
+    {
+        margin-left: 240px;
+        margin-top: 40px;
+    }
+
+    .input-my-comment-container
+    {
+        margin-top: 10px;
+        margin-left: 240px;
+        margin-right: 240px;
+    }
+
+    .other-feedback
+    {
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+}
+
+.comic-review-container
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 80px;
+}
+
+.comic-review-title
+{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.input-my-comment-container
+{
+    min-height: 80px;
+    padding: 14px 14px;
+    border-radius: 10px;
+    border-color: lightgray;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+   
+}
+
+.text-derection
+{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.text-derection-section
+{
+    margin-right: 15px;
+    width: 15px;
+}
+
+.tapping-my-comment
+{
+    border: none;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #DBDBDB;
+}
+
+.other-feedback
+{
+    width: 1fr;
+    border-radius: 10px;
+    border-color: lightgray;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    margin-top: 17px;
+    padding: 14px 14px;
+}
+
+.other-rating
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;    
+    box-sizing: border-box;
+    gap: 20px;
+}
+
+.other-channel-image
+{
+    width: 32px;
+    border-radius: 18px;
+}
+
+.other-channel-name
+{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.time-feedback
+{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #9A9A9A;
+
+}
+
+.other-comment
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}

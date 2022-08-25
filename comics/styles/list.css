@@ -1,0 +1,97 @@
+.other-comic-container
+{
+    /* position: relative; */
+    width: 100%;
+    margin-top: 90px;
+    height: auto;
+}
+
+.more-comics-title
+{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.more-comics-list
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+    top: 80px;
+    gap: 24px;
+}
+
+.poster-and-rating
+{
+    position: relative;
+    padding: 0;
+}
+
+.comic-poster-section
+{
+    width: 100%;
+    border-radius: 35px;
+}
+
+.rating-container
+{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    bottom: 0;
+    border-radius: 0px 20px 0px 35px;
+    background: #FFFFFF;
+    width: 71px;  
+    padding: 8px 10px;
+    bottom: 4px;
+}
+
+.rating-yellow-star
+{
+    margin-right: 8px;
+}
+
+.rating-of-comic
+{
+    display: inline;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.name-category-price-container
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.name-section
+{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.category-section
+{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.price-section
+{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #EE171F;
+    width: auto;
+    text-align: right;
+}
